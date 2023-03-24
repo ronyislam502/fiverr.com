@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f9e42f !important;
+  padding: 0 !important;
+}
+
+/* header */
+header .navbar {
+  background-color: #080808;
+  padding: 15px 50px;
+}
+header .navbar .logo {
+  width: 70px;
+  height: 50px;
+}
+header .navbar .nav-item {
+  margin-right: 50px;
+}
+header .navbar .nav-link.active {
+  color: #f9e42f !important;
+}
+header .navbar .nav-link {
+  font-style: normal;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+}
+/* !header */
+
+/* hero */
+.hero {
+  padding: 100px 0;
+  background: url("../img/map-bg.png") no-repeat center center;
+  background-size: contain;
+}
+.hero h1 {
+  text-align: center;
+  font-style: normal;
+  font-size: 70px !important;
+  font-weight: 800;
+  line-height: 80%;
+  color: #080808;
+  text-transform: uppercase;
+}
+
+.hero p {
+  font-size: 12px;
+  font-weight: 700;
+  color: #080808;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.hero_btn {
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  color: #ffffff !important;
+  text-transform: uppercase;
+  background: #080808 !important;
+  clip-path: polygon(0 0, 85% 0, 100% 100%, 15% 100%);
+  width: 170px;
+  padding: 10px 0 !important;
+}
+/* !hero */
+
+/* dream */
+.dream {
+  background-color: #080808;
+  padding: 100px 0;
+}
+
+.dream h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.dream p {
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+}
+
+.dream .dream_img {
+  border: 5px solid #ffffff;
+  border-radius: 50%;
+  height: 220px;
+  width: 220px;
+  text-align: center;
+}
+.dream h3 {
+  font-size: 24px !important;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+/* !dream */
